@@ -1,11 +1,11 @@
-`bash
+```bash
 mkdir build
 cd build
 cmake ..
 make -j8
-`
+```
 
-`bash
+```bash
 ./bin/sshed --help
 AME:
         sshed-c - SSH config editor and hosts manager
@@ -26,9 +26,9 @@ COMMANDS
         rollback        roll back last operator
         clean_cache     clean ssh cache
         help    this message
-`
+```
 
-`bash
+```bash
 ./bin/sshed.cc --help
 AME:
         sshed - SSH config editor and hosts manager
@@ -49,4 +49,4 @@ COMMANDS
         del                   Del hosts
         dels                  Del hosts from config file (default ssh config file)
         help | h              This message
-`
+```
